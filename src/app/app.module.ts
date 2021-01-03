@@ -11,6 +11,7 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { AccountComponent } from './components/account/account.component';
 import { RestaurantCardComponent } from './components/restaurant-card/restaurant-card.component';
 import { LoginComponent } from './pages/login/login.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoginComponent } from './pages/login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
