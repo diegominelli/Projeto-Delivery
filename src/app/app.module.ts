@@ -57,6 +57,7 @@ import { CdkTableModule } from '@angular/cdk/table';
 import { CdkTreeModule } from '@angular/cdk/tree';
 import { PortalModule } from '@angular/cdk/portal';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { UsersCreateComponent } from './pages/users/users-create/users-create.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     SearchBarComponent,
     AccountComponent,
     RestaurantCardComponent,
-    LoginComponent
+    LoginComponent,
+    UsersCreateComponent
   ],
   imports: [
     BrowserModule,
